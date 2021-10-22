@@ -1,0 +1,66 @@
+
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: "Nunito Sans", Verdana, Tahoma, sans-serif;
+    background: #454545;
+    color: #fff;
+    margin: 1rem;
+}
+
+h1, h2 {
+    font-family: "Halant", Georgia, "Times New Roman", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text{
+  padding: 1rem 0rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 60%;
+}
+
+#container {
+    width: 60%;
+    height: 500px;
+    margin: auto;
+}
+
+#container2 {
+    width: 60%;
+    margin: auto;
+}
+
+a {
+    color: #50F4F7;
+}
+a:hover {
+    color: #D1FAFA;
+}
+
+@media screen and (max-width: 850px) {
+
+  .text{
+    width: 100%;
+    margin: 1rem;
+  }
+
+  #container {
+      width: 100%;
+  }
+
+  #container2 {
+      width: 100%;
+  }

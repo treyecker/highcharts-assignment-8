@@ -12,12 +12,11 @@
 
   <h1>My first chart with Highcharts</h1>
 
-  <p>By Your Name Here</p>
+  <p>By Trey Ecker</p>
 
   <!-- add the div BELOW this comment -
        the 'container' DIV must be EMPTY   -->
-
-
+<div id="container"> </div>
 
 
   <p>There is a chart <em>above</em> this paragraph.</p>
@@ -25,7 +24,18 @@
 
   <!-- add the SCRIPT elements BELOW this comment ...
        ALL SCRIPTS GO BELOW THIS LINE -->
+       <!-- add Highcharts JS using the CDN -->
+       <script src="https://code.highcharts.com/highcharts.js"></script>
 
+       <!-- change the Highcharts theme -->
+       <script src="https://code.highcharts.com/themes/sunset.js"></script>
+
+       <!-- add Highcharts print and export features - optional -->
+       <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+       <!-- add file for your own JavaScript code - this creates the chart -
+            note, it is in the scripts/ folder  -->
+       <script src="scripts/first_chart.js"></script>
 
 
 
